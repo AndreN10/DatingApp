@@ -14,12 +14,12 @@ import { catchError } from 'rxjs/operators';
 @Injectable()
 export class ErrorInterceptor implements HttpInterceptor {
 
-  constructor(private router: Router, private toastr: ToastrService) {}
+  constructor(private router: Router, private toastr: ToastrService) { }
 
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
     return next.handle(request).pipe(
       catchError(error => {
-        if(error) {
+        if (error) {
           switch (error.status) {
             case 400:
               if (error.error.errors) {
@@ -30,21 +30,23 @@ export class ErrorInterceptor implements HttpInterceptor {
                   }
                 }
                 throw modalStateErrors.flat();
-              } else {
+              } else if (typeof (error.error) === 'object') {
                 this.toastr.error(error.statusText, error.status);
+              } else {
+                this.toastr.error(error.error, error.status);
               }
               break;
 
             case 401:
               this.toastr.error("Unauthorized", error.status); // custom status text message, otherwise it says OK which is not good
               break;
-            
+
             case 404:
               this.router.navigateByUrl('/not-found');
               break;
 
             case 500:
-              const navigationExtras: NavigationExtras = {state: {error: error.error}};
+              const navigationExtras: NavigationExtras = { state: { error: error.error } };
               this.router.navigateByUrl('/server-error', navigationExtras);
               break;
 
@@ -54,7 +56,7 @@ export class ErrorInterceptor implements HttpInterceptor {
               break;
           }
         }
-        return throwError(error);        
+        return throwError(error);
       })
     )
   }

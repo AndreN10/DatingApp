@@ -1,0 +1,14 @@
+.colorProblem {
+        background-color: #dc3545; 
+        color: white; 
+        /* border: 1px solid #dc3545; */
+}
+  
+.colorProblem:hover {
+    background-color: white;
+    color: #dc3545;
+}
+
+.img-circle {
+    max-height: 50px;
+}

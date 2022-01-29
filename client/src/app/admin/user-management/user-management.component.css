@@ -1,0 +1,15 @@
+.colorProblem {
+    background-color: #6EC5D3; 
+    color: white; 
+    /* border: 1px solid #dc3545; */
+}
+
+.colorProblem:hover {
+    background-color: white;
+    color: #6EC5D3;
+}
+
+.table >:not(first-child) {
+    border-top: none!important;
+}
+

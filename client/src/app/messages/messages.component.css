@@ -9,6 +9,10 @@
     color: #dc3545;
 }
 
+.table >:not(first-child) {
+    border-top: none;
+}
+
 .img-circle {
     max-height: 50px;
 }

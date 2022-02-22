@@ -1,0 +1,119 @@
+[33mcommit 9defcf533cb44cb51f00c5a1a9a253d1f288cd73[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/FixMessages[m[33m, [m[1;32mFixMessages[m[33m)[m
+Author: Andre <andguen26179@gmail.com>
+Date:   Tue Feb 22 18:27:05 2022 +0700
+
+    Applied fix
+
+[33mcommit b0479d9b05df744c6687e6d9176aa31c5fd9a003[m[33m ([m[1;31morigin/master[m[33m, [m[1;31mheroku/master[m[33m)[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Mon Feb 21 20:24:20 2022 +0700
+
+    Section 19 - pre switch to postgres
+
+[33mcommit 03ad1b687f646ad1aeac766d6f93f70262999f5d[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Wed Feb 16 00:25:45 2022 +0700
+
+    End of section 18
+
+[33mcommit a08d717d689453d2260fb1b4f4f44562170d3898[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Tue Feb 15 21:23:05 2022 +0700
+
+    End of section 17
+
+[33mcommit 23f051de0f733d0ed80718d1ccbec14f7ff09713[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Sun Jan 30 01:12:26 2022 +0700
+
+    End of section 16
+
+[33mcommit 95bc5395acdf57167bb8a75e2658b40a0071b152[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Wed Jan 12 01:20:42 2022 +0700
+
+    End of section 15
+
+[33mcommit 7428a7c0def6eab6c92fdedd594ba399cef5edad[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Thu Nov 25 19:44:57 2021 +0700
+
+    End of section 14
+
+[33mcommit 574d4c492e551791f294009ff06845d130e60abd[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Tue Nov 23 21:11:18 2021 +0700
+
+    End of section 13
+
+[33mcommit 9875b268ac7585c3e6f19afa4824d6e6c8b73e87[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Thu Nov 18 00:22:01 2021 +0700
+
+    End of section 12
+
+[33mcommit 76c9e6cddea5c4cd6952ff7e859b1c78fc4df34a[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Sun Nov 14 22:50:10 2021 +0700
+
+    End of section 11
+
+[33mcommit 48da8f5f7c485026c9ced5cec8fa85746b908c48[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Mon Nov 8 23:38:27 2021 +0700
+
+    End of section 10
+
+[33mcommit 6c5eb19cf7988919f9dba74a34e32ce2d7b5cbc4[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Mon Nov 8 15:34:59 2021 +0700
+
+    End of section 9
+
+[33mcommit 4c6a17c94b174ba7e9bcebcb5daa1a7317fa8dc7[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Sat Nov 6 00:55:24 2021 +0700
+
+    End of section 8
+
+[33mcommit 3b394efd84535bd650b7b67491984347e2da03db[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Tue Nov 2 22:45:38 2021 +0700
+
+    End of section 7
+
+[33mcommit f7acdf56f81d2e5fcce6524f8b0809187ac36576[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Tue Oct 19 20:57:23 2021 +0700
+
+    End of section 6 (logout problem fixed)
+
+[33mcommit f9427d117bf019ae6012c0c1b758840763f9ef7b[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Tue Oct 19 14:50:05 2021 +0700
+
+    End of section 6
+
+[33mcommit f704675f758f1c554dd21230eeb488de1f9df1a9[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Mon Oct 18 02:01:08 2021 +0700
+
+    End of section 5
+
+[33mcommit 9ece03c0280c67423b3405a0a2a025e2360648d4[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Fri Oct 15 23:20:02 2021 +0700
+
+    End of section 4
+
+[33mcommit bb068b70a29e791e788184f98e40b038488db29b[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Thu Oct 14 22:36:26 2021 +0700
+
+    End of Section 3
+
+[33mcommit e5b609810c922d36eabd1c2c28f78155d162321c[m
+Author: Andre Nguyen <andguen26179@gmail.com>
+Date:   Wed Oct 13 22:57:41 2021 +0700
+
+    End of section 2
